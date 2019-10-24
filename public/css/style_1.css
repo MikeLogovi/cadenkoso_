@@ -1,5 +1,5 @@
 
-
+btn
 
 a, a:hover {
     color: #2E7D32
@@ -9,11 +9,22 @@ a, a:hover {
 }
 .join-us-btn{
     display:inline-block;
-    width:200px;
+    width:160px;
     text-align:center;
     color:white;
     border-radius:120px;
     background-color:#2E7D32;
+    margin-bottom:15px;
+    padding-top: 12px !important;
+    padding-bottom: 10px !important;
+    transition :all .4s ease-in-out;
+    font-size:18px;
+    
+}
+.join-us-btn:hover{
+    text-decoration:none;
+    color:#eee;
+    background-color:#3949AB;
 }
 .fh5co_header_bg {
     background: #222;
@@ -134,7 +145,7 @@ a, a:hover {
     padding-bottom: 15px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
-    margin: 0 20px !important;
+    margin: 0 1px !important;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -webkit-transition: all .5s ease;

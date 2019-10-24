@@ -34,6 +34,12 @@
 <script src="/js/main_union.js"></script>
 <script src="/js/main_projects.js"></script>
 <script src="/js/jquery.magnific-popup.min.js"></script>
-	<script src="/js/magnific-popup-options.js"></script>
+<script src="/js/magnific-popup-options.js"></script>
 	<!-- Main -->
-	<script src="js/main_bow.js"></script>
+<script src="js/main_bow.js"></script>
+
+<script>
+  $(document).ready(function(){
+      $('.owlCarousel').owlCarousel();
+  })
+</script>
